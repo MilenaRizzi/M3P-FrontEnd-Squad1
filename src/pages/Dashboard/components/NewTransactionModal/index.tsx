@@ -23,7 +23,7 @@ import {
 import { useContext, useEffect } from "react";
 import { X } from "phosphor-react";
 import { RecipeContext } from "../../../../contexts/RecipeContext";
-import { Header } from "../../../../components/Header";
+import { Header } from "../Header";
 
 const newRecipeFormValidationSchema = zod.object({
   nameRecipe: zod.string().min(1, "Informe o nome da receita"),
