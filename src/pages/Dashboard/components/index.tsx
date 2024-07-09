@@ -8,8 +8,6 @@ import { FilterRecipes } from "./FilterRecipes";
 import { NewTransationModal } from "./NewTransactionModal";
 import { ListRecipes } from "./ListRecipes";
 import { Header } from "./Header";
-import { NavLink } from "react-router-dom";
-
 
 export function Dashboard() {
   const { filteredRecipes } = useContext(FilterRecipeContext);
