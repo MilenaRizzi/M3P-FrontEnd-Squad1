@@ -1,37 +1,15 @@
 import styled from "styled-components";
 
-export const HomeContainer = styled.main`
+export const HomeContent = styled.div`
   display: flex;
-  padding: 1.8rem;
-  justify-content: space-around;
-  gap: 12rem;
-  min-width: 100%;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 `;
 
-export const NewRecipeButton = styled.button`
-  margin-top: auto;
-  padding: 1rem 1.1rem;
-  border-radius: 100%;
-  background: black;
-  cursor: pointer;
-  margin-bottom: 25px;
-
-  &:hover {
-    background-color: #292a36;
-  }
-
-  img {
-    width: 37px;
-  }
-`;
-
-export const Footer = styled.div`
-  text-align: right;
-  margin-right: 20px;
-  margin-top: -40px;
-
-  img {
-    width: 20vh;
-  }
+export const Titulo = styled.h1`
+  font-size: 32px;
+  margin: auto;
+  color: black;
 `;
